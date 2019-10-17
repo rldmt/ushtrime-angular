@@ -11,11 +11,11 @@ import { AppComponent }         from './app.component';
     FormsModule
   ],
   declarations: [
-    
+    AppComponent
   ],
   providers: [
   ],
-  bootstrap: []
+  bootstrap: [AppComponent]
 })
 export class AppModule {
 }
